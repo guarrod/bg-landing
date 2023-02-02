@@ -61,7 +61,7 @@ const IndexPage = () => {
 
 
 
-      <footer className="siteFooter">
+      <footer className="siteFooter yellow">
         <br></br>
         <br></br>
         <br></br>
