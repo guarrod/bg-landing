@@ -1,0 +1,104 @@
+p {
+    font-size: 1.8rem;
+}
+
+// a {
+//     font-weight: 600;
+//     -webkit-touch-callout: none; /* iOS Safari */
+//     -webkit-user-select: none; /* Safari */
+//     -khtml-user-select: none; /* Konqueror HTML */
+//     -moz-user-select: none; /* Old versions of Firefox */
+//     -ms-user-select: none; /* Internet Explorer/Edge */
+//     user-select: none;
+//     transition:all 300ms;
+//     color:$color-primary ;
+//     text-decoration: none;
+//     word-break: break-word;
+//     &:hover{
+//         text-decoration: none;
+//         color:$color-secondary;
+//         .fa-arrow-right{
+//             transform: translateX(1rem);
+//         }
+//     }
+//     .fa-arrow-right{
+//         transition:transform 300ms;
+//         display: inline-block;
+//         margin-left: 1rem;
+//     }
+
+// }
+
+// h1{
+//     color:$color-secondary;
+//     font-size: 3.2rem;
+//     font-weight: 700;
+//     @include respond(m) {
+//         font-size: 4.2rem;
+//     }
+//     a{
+//         font-size: inherit;
+//         color:$color-secondary;
+//         font-weight: inherit;
+//         &:hover{
+//             color:$color-primary;
+//         }
+//     }
+// }
+
+// h2{
+//     font-size: 2.4rem;
+//     font-weight: 700;
+//     color:$color-secondary;
+//     @include respond(m) {
+//         font-size: 3.2rem;
+//     }
+//     @include respond(l) {
+//         font-size: 4.2rem;
+//     }
+
+//     a{
+//         font-size: inherit;
+//         color:$color-secondary;
+//         font-weight: inherit;
+//         &:hover{
+//             color:$color-primary;
+//         }
+//     }
+// }
+
+// h3{
+//     font-size: 1.8rem;
+//     font-weight: 700;
+//     color:$color-secondary;
+//     margin-top:0;
+//     @include respond(s) {
+//         font-size: 2.4rem;
+//     }
+//     a{
+//         font-size: inherit;
+//         color:$color-secondary;
+//         font-weight: inherit;
+//         &:hover{
+//             color:$color-primary;
+//         }
+//     }
+// }
+
+// h4{
+//     font-size: 1.8rem;
+//     text-transform: uppercase;
+//     color:rgba($color-secondary,.5);
+//     font-weight: bold;
+//     a{
+//       color:rgba($color-secondary,.5);
+//       font-size: inherit;
+//       &:hover{
+//          color:$color-primary;
+//       }
+//     }
+//     @include respond(s) {
+//         font-size: 2.4rem;
+//     }
+
+// }

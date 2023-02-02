@@ -1,0 +1,8 @@
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    /* IE10+ specific styles go here */
+    .list-item {
+        p {
+            display: inline;
+        }
+    }
+}

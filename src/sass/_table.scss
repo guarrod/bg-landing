@@ -1,0 +1,18 @@
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 0.8rem;
+}
+
+.striped tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.bg-table-responsive {
+    overflow-x: auto;
+}

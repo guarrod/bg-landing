@@ -1,0 +1,149 @@
+@import "./variables";
+@import ".//mixins";
+
+.hero-chubb {
+  background-image: url("../images/chubb-images/hero-chubb.png");
+  background-size: cover;
+}
+
+.chubb {
+  max-width: 100rem;
+  margin: auto;
+
+  .chubb-title-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .chubb-icon {
+    width: 2.5rem;
+  }
+  .uk-accordion-content {
+    max-height: 50rem;
+    overflow-y: scroll;
+  }
+  &__title {
+    color: #333;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+
+  &__subtitle {
+    color: #333;
+  }
+
+  &__link {
+    color: #1a73e8 !important;
+    text-decoration: underline;
+  }
+
+  &-accordion {
+    &__container {
+      padding: 2.5rem;
+      border-radius: 8px;
+      border: 1px solid #eff2f8;
+    }
+
+    .uk-accordion-title {
+      color: #254098;
+    }
+
+    list-style-type: none;
+
+    .uk-grid .chubb-accordion__inner {
+      border-bottom: 1px solid $color-gray-03;
+      @include respond(s) {
+        border-right: 1px solid $color-gray-03;
+      }
+    }
+    .uk-grid .chubb-accordion__inner:nth-child(even) {
+      @include respond(s) {
+        border-right: none;
+      }
+    }
+    .uk-grid .chubb-accordion__inner:nth-last-child(-n + 2) {
+      @include respond(s) {
+        border-bottom: none;
+      }
+    }
+
+    &__inner {
+      padding: 4rem;
+    }
+  }
+}
+
+.chubb--price {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.uk-slidenav-previous {
+  margin-left: 0;
+  padding-left: 0;
+
+  svg {
+    margin-left: 0 !important;
+  }
+}
+
+.uk-slidenav-next {
+  margin-right: 0;
+  padding-right: 0;
+
+  svg {
+    margin-right: 0 !important;
+  }
+}
+
+.uk-slidenav-previous,
+.uk-slidenav-next {
+  background-color: $color-accent;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+
+  svg {
+    margin: 0 !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  svg {
+    height: 12px;
+    width: 7px;
+  }
+  svg > * {
+    stroke: white;
+  }
+  svg:hover {
+    transform: translate(-50%, -50%);
+  }
+
+  &:hover svg {
+    transform: translate(-50%, -50%) !important;
+  }
+}
+
+.chubb--list {
+  li {
+    color: #160f41;
+  }
+}
+
+.chubb__second-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #160f41;
+}
+
+.chubb-title {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.list-benefits-title {
+  color: #333 !important;
+}
