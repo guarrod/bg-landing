@@ -1,43 +1,244 @@
 @import "../../sass/main.scss";
-.siteHeader {
-    background-color: $color-accent
+body {
+    background-color: #fff;
+    color: $text-color-primary;
 }
 
-.siteFooter {
+.site-header {
+    background-color: $color-accent;
+}
+
+.site-footer {
     background-color: $color-base;
 }
 
-.yellow{
-    background-color: yellow;
+section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
-section{
-  padding-top: 4rem;  
-  padding-bottom: 4rem;
-}
-
-.boxed{
+.boxed {
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
-} 
+}
+
+// GENERAL STYLES, MODIFIERS
+
+.center {
+    text-align: center;
+}
+
+// LAYOUT
+
+.flex {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    &__between {
+        justify-content: space-between;
+    }
+}
+
+.centered {
+    margin: auto;
+}
+
+// TEXT
 
 .heading {
     font-style: normal;
-    &_h1 {
+    &__h1 {
         font-weight: 600;
         font-size: 2.1875rem;
-        line-height: 130%;
-        color: $color-accent;
+        line-height: 2.8438rem;
     }
-    &_h2 {
+    &__h2 {
         font-weight: 600;
         font-size: 1.75rem;
-        line-height: 140%;
+        line-height: 1.925rem;
     }
-    &_h3 {
+    &__h3 {
         font-weight: 400;
         font-size: 1.375rem;
-        line-height: 140%;
+        line-height: 1.925rem;
     }
+}
+
+.paragraph{
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 150%;
+    &--gray-text {
+        color: $text-color-secondary;
+    }
+}
+
+
+small {
+    font-weight: 400;
+    font-size: 0.938rem;
+    line-height: 150%;
+}
+
+// FORMS
+
+input {
+    &[type="text"],
+    &[type="number"] {
+        background-color: $color-backgrond-auxiliar;
+        padding: 1rem;
+        color: $text-color-secondary;
+        border-radius: 0.5rem;
+        border: none;
+        font-weight: 400;
+        font-size: 1.125rem;
+        line-height: 150%;
+        &:focus-visible {
+            outline-color: $color-accent;
+        }
+    }
+}
+
+select{
+    background-color: $color-backgrond-auxiliar;
+    padding: 1rem;
+    color: $text-color-secondary;
+    border-radius: 0.5rem;
+    border: none;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 150%;
+    margin-bottom: 2rem;  
+    &:focus-visible {
+        outline-color: $color-accent;
+    }
+}
+
+label {
+    color: $text-color-primary;
+    font-weight: 600;
+    font-size: 0.938rem;
+    line-height: 150%;
+    display: flex;
+    flex-direction: column;
+}
+
+// CARDS
+
+.card {
+    box-shadow: -8px -8px 16px rgba(249, 249, 249, 0.35), 8px 8px 16px rgba(208, 208, 208, 0.25);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin: .5rem;
+    background-color: $color-background;
+    &--gray {
+        background-color: $color-backgrond-auxiliar;
+    }
+    small{
+        color: $text-color-secondary;
+    }
+}
+
+// HELP
+
+.help {
+    max-width: 70%;
+    margin: auto;
+
+    li {
+        list-style: none;
+        margin-top: 4rem;
+        border-bottom: 1px solid #d0d0d0;
+        &:last-child {
+            border: none;
+        }
+        &.open {
+            padding-bottom: 3rem;
+            small {
+                transform: rotate(180deg);
+            }
+            p {
+                display: block;
+                color: $text-color-secondary;
+            }
+        }
+        &.closed {
+            margin-bottom: 0;
+            small {
+                transform: rotate(360deg);
+            }
+            p {
+                display: none;
+            }
+        }
+        a {
+            color: $text-color-primary;
+            text-decoration: none;
+            font-weight: 600;
+            display: flex;
+            font-size: 1.125rem;
+            line-height: 150%;
+            margin-bottom: 2rem;
+            small {
+                display: inline-block;
+                padding: 10px;
+                margin-left: 2rem;
+                background-image: url("../../images/chevron.svg");
+                background-repeat: no-repeat;
+                background-position: right;
+            }
+        }
+    }
+}
+
+//List
+
+.list {
+    list-style: none;
+    li {
+        margin-bottom: 1rem;
+        display: inline-flex;
+        font-size: .9375rem;
+        line-height: 1.4063rem;
+    }
+
+    .thumb {
+        margin-right: 1.5rem;
+        flex: none;
+        margin-top: .4375rem;
+    }
+    p{
+        margin: 0;
+    }
+}
+
+// BACKGROUNDS
+
+.bg1 {
+    background-image: url(.././../images/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-base {
+    background-color: $color-base;
+    color: $color-background;
+}
+
+.bg-accent {
+    background-color: $color-accent;
+    color: $color-background;
+
+    .button.secondary {
+        background-color: $color-background;
+    }
+    .button.link {
+        color: $color-background;
+    }
+}
+
+.bg-auxiliar {
+    background-color: $color-backgrond-auxiliar;
 }

@@ -1,158 +1,24 @@
-.magenta,
-.amex-blue,
-.overlay-magenta {
-  h1,
-  h2,
-  h3 {
-    color: #fff;
-  }
+$color-background: #ffffff;
+$color-base: #160f41;
+$color-accent: #d2006e;
 
-  a {
-    color: #fff;
-    &:hover {
-      color: $color-base;
-    }
-  }
+$text-color-primary: #121212;
+$text-color-secondary: #717171;
+$text-color-link: #0f62fe;
 
-  p {
-    color: #fff;
-  }
+$color-backgrond-auxiliar: #f9f9f9;
+$color-border: #898989;
 
-  h4 {
-    color: rgba(#fff, 0.5);
+$color-accent-hover: #bd0063;
 
-    a {
-      color: rgba(#fff, 0.5);
-
-      &:hover {
-        color: $color-base;
-      }
-    }
-  }
-
-  .bg-button {
-    &.bg-secondary {
-      border: #fff 1px solid;
-      color: $color-accent;
-      &:hover {
-        background-color: $color-base;
-        border: $color-base 1px solid !important;
-        color: #fff;
-      }
-    }
-  }
+.color-accent {
+    color: $color-accent;
 }
 
-.magenta {
-  .bg-button {
-    &.bg-primary,
-    &.bg-secondary {
-      border: #fff 1px solid;
-      color: $color-accent;
-      background-color: #fff;
-
-      &:hover {
-        color: $color-accent;
-        background-color: #fff;
-      }
-    }
-  }
+.color-base {
+    color: $color-base;
 }
 
-.dark-blue {
-  h1,
-  h2,
-  h3 {
-    color: #fff;
-  }
-
-  a {
-    color: #fff;
-    &:hover {
-      color: $color-base;
-    }
-  }
-
-  p {
-    color: #fff;
-  }
-
-  h4 {
-    color: rgba(#fff, 0.5);
-
-    a {
-      color: rgba(#fff, 0.5);
-
-      &:hover {
-        color: $color-base;
-      }
-    }
-  }
-  a {
-    color: #fff;
-    &:hover {
-      color: $color-accent;
-    }
-  }
-  .bg-button {
-    &.bg-secondary {
-      color: #fff;
-      border: $color-accent 1px solid;
-      background-color: $color-accent;
-      &:hover {
-        border: 1px solid #fff;
-        color: $color-accent;
-        background-color: #fff;
-      }
-    }
-  }
-}
-
-.no-filter {
-  h1,
-  h2,
-  h3 {
-    color: #fff;
-  }
-
-  a {
-    color: #fff;
-    &:hover {
-      color: $color-base;
-    }
-  }
-
-  p {
-    color: #fff;
-  }
-
-  h4 {
-    color: rgba(#fff, 0.5);
-
-    a {
-      color: rgba(#fff, 0.5);
-
-      &:hover {
-        color: $color-base;
-      }
-    }
-  }
-  a {
-    color: #fff;
-    &:hover {
-      color: $color-accent;
-    }
-  }
-  .bg-button {
-    &.bg-secondary {
-      color: #fff;
-      border: $color-accent 1px solid;
-      background-color: $color-accent;
-      &:hover {
-        border: 1px solid #fff;
-        color: $color-accent;
-        background-color: #fff;
-      }
-    }
-  }
+.text-color-secondary {
+    color: $text-color-secondary;
 }
