@@ -11,14 +11,20 @@ $color-border: #898989;
 
 $color-accent-hover: #bd0063;
 
-.color-accent {
-    color: $color-accent;
-}
+$color-gray-500:#717171; 
+$color-gray-400:#898989; 
+$color-gray-300:#D0D0D0; 
+$color-gray-200:#EDEDED; 
+$color-gray-100:#F9F9F9; 
 
-.color-base {
-    color: $color-base;
-}
+.color-gray-500{color: $color-gray-500}
+.color-gray-400{color: $color-gray-400}
+.color-gray-300{color: $color-gray-300}
+.color-gray-200{color: $color-gray-200}
+.color-gray-100{color: $color-gray-100}
 
-.text-color-secondary {
-    color: $text-color-secondary;
-}
+.color-accent {color: $color-accent;}
+
+.color-base {color: $color-base;}
+
+.text-color-secondary {color: $text-color-secondary;}

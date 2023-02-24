@@ -20,12 +20,17 @@ const IndexPage = () => {
         <div className="boxed">
 
           {/* HEADINGS AND TEXT */}
-          <h1 className="heading heading__h1" style={{ color: "#000000", fontWeight: "bold", borderBottom: "8px solid #ebebeb", marginBottom: "48px" }}>Headings and text</h1>
+          <h1 className="heading heading--h1" style={{ color: "#000000", fontWeight: "bold", borderBottom: "8px solid #ebebeb", marginBottom: "48px" }}>Headings and text</h1>
+
+          <h1 class="display display--big">DisplayLarge</h1>
+          <h2 class="display display--medium">DisplayMedium</h2>
+          <h3 class="display display--small">DisplaySmall</h3>
+
+          <h1 class="heading heading--h1">Headline (H1)</h1>
+          <h2 class="heading heading--h2">Subtitle 1 (H2)</h2>
+          <h3 class="heading heading--h3">Subtitle 2 (H3)</h3>
 
 
-          <h1 className="heading heading__h1">Headline 1. Lorem ipsum dolor sit amet, consectetur</h1>
-          <h2 className="heading heading__h2">Titulo H2</h2>
-          <h3 className="heading heading__h3">Título H3</h3>
           <p className="paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
           <small>Muy lejos, más allá de las montañas de palabras, alejados de los países de las vocales y las consonantes, viven los textos simulados. Viven aislados en casas de letras, en la costa de la semántica, un gran océano de lenguas. </small>
           <br></br>
@@ -34,7 +39,7 @@ const IndexPage = () => {
 
 
           {/* BUTTONS */}
-          <h1 className="heading heading__h1" style={{ color: "#000000", fontWeight: "bold", borderBottom: "8px solid #ebebeb", marginBottom: "48px", marginTop: "60px" }}>Buttons</h1>
+          <h1 className="heading heading--h1" style={{ color: "#000000", fontWeight: "bold", borderBottom: "8px solid #ebebeb", marginBottom: "48px", marginTop: "60px" }}>Buttons</h1>
 
 
           <a className="button primary" href="/">Button label</a>
@@ -49,7 +54,7 @@ const IndexPage = () => {
 
 
           {/* FORMS */}
-          <h1 className="heading heading__h1" style={{ color: "#000000", fontWeight: "bold", borderBottom: "8px solid #ebebeb", marginBottom: "48px", marginTop: "60px" }}>Forms</h1>
+          <h1 className="heading heading--h1" style={{ color: "#000000", fontWeight: "bold", borderBottom: "8px solid #ebebeb", marginBottom: "48px", marginTop: "60px" }}>Forms</h1>
 
 
           <form>
@@ -93,14 +98,14 @@ const IndexPage = () => {
 
 
           {/* CARDS */}
-          <h1 className="heading heading__h1" style={{ color: "#000000", fontWeight: "bold", borderBottom: "8px solid #ebebeb", marginBottom: "48px", marginTop: "60px" }}>Cards</h1>
+          <h1 className="heading heading--h1" style={{ color: "#000000", fontWeight: "bold", borderBottom: "8px solid #ebebeb", marginBottom: "48px", marginTop: "60px" }}>Cards</h1>
 
 
 
 
           <div className="row">
             <div className="col-lg-3">
-              <div className="card graySurface center">
+              <div className="card card--gray center">
                 <StaticImage
                   src="../images/icon-landing.svg"
                   alt="Icono"
@@ -114,7 +119,7 @@ const IndexPage = () => {
               </div>
             </div>
             <div className="col-lg-3">
-              <div className="card graySurface">
+              <div className="card card--gray">
                 <StaticImage
                   src="https://via.placeholder.com/280x144/F3F3F5.png/000"
                   alt="Icono"
@@ -130,16 +135,16 @@ const IndexPage = () => {
             </div>
             <div className="col-lg-3">
               <div className="card">
-                <p className="paragraph paragraph--gray-text">Body 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis velit a nibh maximus lobortis. Donec commodo placerat risus.</p>
+                <p className="paragraph paragraph--gray">Body 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis velit a nibh maximus lobortis. Donec commodo placerat risus.</p>
                 <h3 className="color-accent">Subtitle 2. Title</h3>
                 <small>BODY 2. OVERLINE</small>
               </div>
             </div>
             <div className="col-lg-3">
-              <div className="card graySurface">
+              <div className="card card--gray">
                 <div>
                   <h2>Subtitle 1. Title</h2>
-                  <p className="paragraph paragraph--gray-text">Body 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <p className="paragraph paragraph--gray">Body 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                   <a className="button link" href="/">Button label</a>
                 </div>
               </div>
@@ -147,7 +152,7 @@ const IndexPage = () => {
           </div>
 
 
-          <div className="card graySurface flex flex__between">
+          <div className="card card--gray flex flex__between">
             <div>
               <h2>Subtitle 1. Title</h2>
               <p>Body 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -171,7 +176,7 @@ const IndexPage = () => {
 
 
           {/* COLLAPSABLE */}
-          <h1 className="heading heading__h1" style={{ color: "#000000", fontWeight: "bold", borderBottom: "8px solid #ebebeb", marginBottom: "48px", marginTop: "60px" }}>Collapsable</h1>
+          <h1 className="heading heading--h1" style={{ color: "#000000", fontWeight: "bold", borderBottom: "8px solid #ebebeb", marginBottom: "48px", marginTop: "60px" }}>Collapsable</h1>
 
 
           <ul className="help">
@@ -207,7 +212,7 @@ const IndexPage = () => {
 
 
           {/* LIST */}
-          <h1 className="heading heading__h1" style={{ color: "#000000", fontWeight: "bold", borderBottom: "8px solid #ebebeb", marginBottom: "48px", marginTop: "60px" }}>List</h1>
+          <h1 className="heading heading--h1" style={{ color: "#000000", fontWeight: "bold", borderBottom: "8px solid #ebebeb", marginBottom: "48px", marginTop: "60px" }}>List</h1>
 
 
           {/* List */}
