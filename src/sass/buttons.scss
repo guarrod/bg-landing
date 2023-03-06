@@ -20,8 +20,18 @@
         cursor: pointer;
     }
     &.plus:after {
-        content: ">";
-        margin-right: 6px;
+        border-style: solid;
+    border-width: 2px 2px 0px 0px;
+    content: "";
+    display: inline-block;
+    height: 10px;
+    left: 0px;
+    position: relative;
+    top: 1px;
+    transform: rotate(45deg);
+    vertical-align: top;
+    width: 10px;
+    border-radius: 2px;
     }
 
     &.primary {
