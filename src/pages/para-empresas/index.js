@@ -213,13 +213,13 @@ const IndexPage = () => {
             <div className="col-lg-3 col-md-6 mb-4">
               <img src={rocket} alt="my-gif" className="list-icon" />
               <p className="paragraph paragraph__primary paragraph__primary--bold mb-3 mt-3"><b>Inicia como<br /> nunca antes</b></p>
-              <p className="paragraph paragraph__primary paragraph__primary--regular paragraph--gray ">Un login más flexible y completo</p>
+              <p className="paragraph paragraph__primary paragraph__primary--regular paragraph--gray ">Un login más flexible<br /> y completo</p>
             </div>
             <div className="col-lg-3 col-md-6 mb-4">
               <img src={excel} alt="my-gif" className="list-icon" />
 
               <p className="paragraph paragraph__primary paragraph__primary--bold mb-3 mt-3"><b>Gestiona tus finanzas empresariales</b></p>
-              <p className="paragraph paragraph__primary paragraph__primary--regular paragraph--gray ">Realiza pagos y transferencias en cualquier lugar</p>
+              <p className="paragraph paragraph__primary paragraph__primary--regular paragraph--gray ">Realiza pagos y<br /> transferencias en cualquier lugar</p>
             </div>
             <div className="col-lg-3 col-md-6 mb-4">
               <img src={responsive} alt="my-gif" className="list-icon" />
