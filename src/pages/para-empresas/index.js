@@ -195,19 +195,19 @@ const IndexPage = () => {
           <h2 class="display display__medium mb-5">Productos y servicios</h2>
           <div className="row justify-content-between justify-content-sm-evenly">
             <div className="products__item accounts col-lg-3 col-md-6 mb-4 ">
-              <h1 class="heading heading__subtitle-1 heading__subtitle-2--bold mb-3 ps-2 pe-2">Cuenta Corriente</h1>
+              <h1 class="heading heading__subtitle-1 heading__subtitle-2--bold mb-3">Cuenta Corriente</h1>
               <p className="paragraph paragraph__secondary paragraph__secondary--regular  ps-2 pe-2">Agiliza tus transacciones y recibe atención personalizada.</p>
             </div>
             <div className=" products__item cards scol-lg-3 col-md-6 mb-4 ">
-              <h1 class="heading heading__subtitle-1 heading__subtitle-2--bold mb-3 ps-2 pe-2">Tarjeta Corporativa</h1>
+              <h1 class="heading heading__subtitle-1 heading__subtitle-2--bold mb-3">Tarjeta Corporativa</h1>
               <p className="paragraph paragraph__secondary paragraph__secondary--regular  ps-2 pe-2">Recibe tasas de interés preferenciales y hasta el doble de millas.</p>
             </div>
             <div className="products__item financing col-lg-3 col-md-6 mb-4 ">
-              <h1 class="heading heading__subtitle-1 heading__subtitle-2--bold mb-3 ps-2 pe-2">Financiamiento para tu empresa</h1>
+              <h1 class="heading heading__subtitle-1 heading__subtitle-2--bold mb-3">Financiamiento para tu empresa</h1>
               <p className="paragraph paragraph__secondary paragraph__secondary--regular  ps-2 pe-2">Cuenta con opciones de crédito y herramientas financieras que se ajustan a tu empresa.</p>
             </div>
             <div className="products__item services col-lg-3 col-md-6 mb-4 ">
-              <h1 class="heading heading__subtitle-1 heading__subtitle-2--bold mb-3 ps-2 pe-2">Servicios adicionales</h1>
+              <h1 class="heading heading__subtitle-1 heading__subtitle-2--bold mb-3">Servicios adicionales</h1>
               <p className="paragraph paragraph__secondary paragraph__secondary--regular  ps-2 pe-2">Ventanilla extendida, pago a terceros, recaudaciones y más servicios para tu empresa.</p>
             </div>
           </div>
