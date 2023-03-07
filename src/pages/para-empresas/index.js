@@ -93,7 +93,7 @@ const IndexPage = () => {
               <h1 class="heading heading__headline--semi-bold mb-3"><b>Una App exclusiva</b>  <br /> para empresas</h1>
               <p className="heading heading__subtitle-2 heading__subtitle-2--regular heading--gray mb-5">La primera App de Ecuador diseñada exclusivamente para empresas.</p>
 
-              <h1 class="heading heading__headline--semi-bold mb-3"><b>Nuevo diseño </b>pensado en ti</h1>
+              <h1 class="heading heading__headline--semi-bold mb-3"><b>Nuevo diseño </b><br />pensado en ti</h1>
               <p className="heading heading__subtitle-2 heading__subtitle-2--regular heading--gray mb-5">Una completa nueva forma de interactuar con las finanzas de tu empresa.</p>
 
               <h1 class="heading heading__headline--semi-bold mb-3"><b>Todo bajo control</b></h1>
@@ -195,11 +195,11 @@ const IndexPage = () => {
           <h2 class="display display__medium mb-5">Productos y servicios</h2>
           <div className="row justify-content-between justify-content-sm-evenly">
             <div className="products__item accounts col-lg-3 col-md-6 mb-4 ">
-              <h1 class="heading heading__subtitle-1 heading__subtitle-2--bold mb-3 ps-2 pe-2">Cuenta Corriente Empresarial</h1>
+              <h1 class="heading heading__subtitle-1 heading__subtitle-2--bold mb-3 ps-2 pe-2">Cuenta Corriente</h1>
               <p className="paragraph paragraph__secondary paragraph__secondary--regular  ps-2 pe-2">Agiliza tus transacciones y recibe atención personalizada.</p>
             </div>
             <div className=" products__item cards scol-lg-3 col-md-6 mb-4 ">
-              <h1 class="heading heading__subtitle-1 heading__subtitle-2--bold mb-3 ps-2 pe-2">Tarjeta de Crédito Business</h1>
+              <h1 class="heading heading__subtitle-1 heading__subtitle-2--bold mb-3 ps-2 pe-2">Tarjeta Corporativa</h1>
               <p className="paragraph paragraph__secondary paragraph__secondary--regular  ps-2 pe-2">Recibe tasas de interés preferenciales y hasta el doble de millas.</p>
             </div>
             <div className="products__item financing col-lg-3 col-md-6 mb-4 ">
@@ -208,7 +208,7 @@ const IndexPage = () => {
             </div>
             <div className="products__item services col-lg-3 col-md-6 mb-4 ">
               <h1 class="heading heading__subtitle-1 heading__subtitle-2--bold mb-3 ps-2 pe-2">Servicios adicionales</h1>
-              <p className="paragraph paragraph__secondary paragraph__secondary--regular  ps-2 pe-2">Ventanilla extendida, recaudaciones, pago a terceros y más servicios para tu empresa.</p>
+              <p className="paragraph paragraph__secondary paragraph__secondary--regular  ps-2 pe-2">Ventanilla extendida, pago a terceros, recaudaciones y más servicios para tu empresa.</p>
             </div>
           </div>
         </div>
@@ -223,23 +223,23 @@ const IndexPage = () => {
           <div className="row">
             <div className="col-lg-3 col-md-6 mb-4">
               <img src={rocket} alt="my-gif" className="list-icon" />
-              <p className="paragraph paragraph__primary paragraph__primary--bold mb-3 mt-3"><b>Inicia como nunca antes</b></p>
+              <p className="paragraph paragraph__primary paragraph__primary--bold mb-3 mt-3"><b>Inicia como<br /> nunca antes</b></p>
               <p className="paragraph paragraph__primary paragraph__primary--regular paragraph--gray ">Un login más flexible y completo</p>
             </div>
             <div className="col-lg-3 col-md-6 mb-4">
               <img src={excel} alt="my-gif" className="list-icon" />
 
-              <p className="paragraph paragraph__primary paragraph__primary--bold mb-3 mt-3"><b>Gestiona tus finanzas</b></p>
+              <p className="paragraph paragraph__primary paragraph__primary--bold mb-3 mt-3"><b>Gestiona tus finanzas empresariales</b></p>
               <p className="paragraph paragraph__primary paragraph__primary--regular paragraph--gray ">Realiza pagos y transferencias en cualquier lugar</p>
             </div>
             <div className="col-lg-3 col-md-6 mb-4">
               <img src={responsive} alt="my-gif" className="list-icon" />
-              <p className="paragraph paragraph__primary paragraph__primary--bold mb-3 mt-3"><b>Tu Empresa en todo lugar</b></p>
+              <p className="paragraph paragraph__primary paragraph__primary--bold mb-3 mt-3"><b>Lleva tu empresa a todas partes</b></p>
               <p className="paragraph paragraph__primary paragraph__primary--regular paragraph--gray ">Consulta tus saldos en todos tus dispositivos</p>
             </div>
             <div className="col-lg-3 col-md-6 mb-4">
               <img src={reportes} alt="my-gif" className="list-icon" />
-              <p className="paragraph paragraph__primary paragraph__primary--bold mb-3 mt-3"><b>Reportes personalizados</b></p>
+              <p className="paragraph paragraph__primary paragraph__primary--bold mb-3 mt-3"><b>Descarga reportes personalizados</b></p>
               <p className="paragraph paragraph__primary paragraph__primary--regular paragraph--gray ">Elige los campos y formatos que deseas para descargar tus reportes</p>
             </div>
           </div>
@@ -345,9 +345,10 @@ const IndexPage = () => {
       <section className="cash bg-base">
         <div className="boxed">
           <h1 className="heading heading__headline heading__headline--bold mb-4 center">Muy pronto estará disponible el Cash Management</h1>
-          <h3 class="heading heading__subtitle-2 heading__headline--semi-bold center">Carga, aprueba y consulta las órdenes de pago de tu empresa. <br />
-            Realiza transferencias a otros bancos, al exterior, pago a terceros y más<br />
-            con un nuevo diseño.</h3>
+          <h3 class="heading heading__subtitle-2 heading__headline--semi-bold center">Carga, aprueba y consulta las órdenes de pago de tu empresa.<br />
+Realiza transferencias a otros bancos, al exterior, pago a terceros<br />
+y más opciones con un nuevo diseño.
+            </h3>
         </div>
       </section>
 
