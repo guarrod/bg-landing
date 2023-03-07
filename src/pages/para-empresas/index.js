@@ -10,17 +10,6 @@ const IndexPage = () => {
   return (
     <main>
 
-      <div>
-        <ul className="mb-0">
-          <li className="d-block d-sm-none">xs</li>
-          <li className="d-none d-sm-block d-md-none">sm</li>
-          <li className="d-none d-md-block d-lg-none">md</li>
-          <li className="d-none d-lg-block d-xl-none">lg</li>
-          <li className="d-none d-xl-block d-xxl-none">xl</li>
-          <li className="d-none d-xxl-block">xxl</li>
-        </ul>
-      </div>
-
       <header className="site-header">
         <br></br>
         <br></br>
