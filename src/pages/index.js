@@ -1,4 +1,5 @@
 import * as React from "react"
+import './para-empresas.scss'
 import { StaticImage } from "gatsby-plugin-image"
 
 
@@ -176,7 +177,7 @@ const IndexPage = () => {
             <div className="col-lg-4">
               <div className="card card__type-3">
                 <p>Body 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis velit a nibh maximus lobortis. Donec commodo placerat risus.</p>
-                <h1 className="mt-3 mb-3">Subtitle-2 - Bold</h1>
+                <h1 className="mt-3 mb-2">Subtitle-2 - Bold</h1>
                 <small>Overline - Regular</small>
               </div>
             </div>
