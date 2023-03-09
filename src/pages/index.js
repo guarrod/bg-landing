@@ -1,5 +1,5 @@
 import * as React from "react"
-import './para-empresas.scss'
+import './para-empresas/para-empresas.scss'
 import { StaticImage } from "gatsby-plugin-image"
 
 
