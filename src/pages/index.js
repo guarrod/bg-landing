@@ -18,8 +18,7 @@ const IndexPage = () => {
       <div className="boxed">
 
 
-
-        {/* HEADINGS */}
+        {/*  */}
         <section style={{ padding: "20px", border: "1px solid #e9ecef", borderRadius: "8px", margin: "20px 0" }}>
           <h1 className="heading heading--h1" style={{ color: "#000000", fontWeight: "bold", borderBottom: "8px solid #ebebeb", marginBottom: "48px" }}>Headings and text</h1>
 
