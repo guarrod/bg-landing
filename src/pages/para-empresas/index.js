@@ -243,11 +243,11 @@ const IndexPage = () => {
             <div className="col-md-12 col-lg-5 flex border-end justify-content-md-evenly">
               <div>
                 <h1 class="display display__medium">+20k</h1>
-                <p className="paragraph paragraph__secondary center">Empresas confían en nosotros</p>
+                <p className="paragraph paragraph__secondary center">Empresas confían <br /> en nosotros</p>
               </div>
               <div>
                 <h1 class="display display__medium">+60k</h1>
-                <p className="paragraph paragraph__secondary center">Empresas confían en nosotros</p>
+                <p className="paragraph paragraph__secondary center">Usuarios usan <br /> nuestra plataformo</p>
               </div>
 
             </div>
@@ -289,7 +289,7 @@ const IndexPage = () => {
               </div>
               <div>
                 <StaticImage
-                  src="../../images/aenor.svg"
+                  src="../../images/aenor.jpg"
                   alt="aenor"
                   placeholder="image"
                   layout="constrained"
